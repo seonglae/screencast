@@ -6,5 +6,8 @@ This is Renewed, Edited version of [ShowOff](https://www.dcmembers.com/skrommel/
 
 
 ## Shortcuts
-- `alt + r` - restart program
-- `alt + f4` - After click 
+Global Shortcut
+- `alt + r` - Restart overlay
+
+After Click Overlay
+- `alt + f4` - End Overlay 
