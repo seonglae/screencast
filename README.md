@@ -9,4 +9,4 @@ Global Shortcut
 - `alt + r` - Restart overlay
 
 After Click Overlay
-- `alt + f4` - End Overlay 
+- Click Overlayer & `alt + f4` - End Overlay 
