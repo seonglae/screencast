@@ -7,13 +7,14 @@ CoordMode,Mouse,Screen
 
 applicationname=cast
 
+Gosub,TRAYMENU
 Gosub,READINI
 
 shiftkeys=
 keys=
 
 ; gui init
-frombottom := A_ScreenHeight - statusheight - frombottom
+frombottom := A_ScreenHeight - statusheight* 2
 width := statuswidth
 statusx := (A_ScreenWidth - statuswidth) / 2
 top := (statusheight - fontsize * 1.5) / 2
@@ -105,7 +106,6 @@ READINI:
     inifile=%inifile%`n`;font
     inifile=%inifile%`n`;statusheight
     inifile=%inifile%`n`;statuswidth
-    inifile=%inifile%`n`;frombottom
     inifile=%inifile%`n`;transparency 0-255,Off
     inifile=%inifile%`n`;timetohide             `;time in ms
     inifile=%inifile%`n
@@ -117,7 +117,6 @@ READINI:
     inifile=%inifile%`nfont=Arial
     inifile=%inifile%`nstatusheight=200
     inifile=%inifile%`nstatuswidth=1000
-    inifile=%inifile%`nfrombottom=50
     inifile=%inifile%`ntransparency=150
     inifile=%inifile%`ntimetoshow=1000
     inifile=%inifile%`n
@@ -139,7 +138,6 @@ READINI:
   IniRead,font,%applicationname%.ini,Settings,font
   IniRead,statusheight,%applicationname%.ini,Settings,statusheight
   IniRead,statuswidth,%applicationname%.ini,Settings,statuswidth
-  IniRead,frombottom,%applicationname%.ini,Settings,frombottom
   IniRead,transparency,%applicationname%.ini,Settings,transparency
   IniRead,timetoshow,%applicationname%.ini,Settings,timetoshow
   FileRead,inifile,%applicationname%.ini
@@ -147,6 +145,16 @@ READINI:
   inifile=
 Return
 
+TRAYMENU:
+  Menu,Tray,NoStandard
+  Menu,Tray,Add,%applicationname%,SETTINGS
+  Menu,Tray,Add,
+  Menu,Tray,Add,&Settings...,SETTINGS
+  Menu,Tray,Add,&About...,ABOUT
+  Menu,Tray,Add,E&xit,EXIT
+  Menu,Tray,Default,%applicationname%
+  Menu,Tray,Tip,%applicationname%
+Return
 
 SETTINGS:
   Gosub,READINI
