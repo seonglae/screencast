@@ -5,7 +5,6 @@ const ICONS_DIR = 'asset/icons/'
 const windows = {
   win: {
     icon: ICONS_DIR + 'white.ico',
-    requestedExecutionLevel: 'highestAvailable',
     target: 'nsis',
     // certificateFile: 'Seonglae.pfx',
     // certificatePassword: process.env.PASS,
