@@ -40,8 +40,7 @@ export default defineComponent({
       const exist = (await exists(ahkPath)) && (await exists(makePath))
       if (!exist) return toast.error('No File')
       run(`"${ahkPath}" "${makePath}"`, () => {
-        console.log('done')
-        store.state.loading = false
+        remote.app.exit(0)
       })
     }
 

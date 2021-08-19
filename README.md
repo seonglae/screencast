@@ -17,7 +17,7 @@ Impressed by [ShowOff](https://www.dcmembers.com/skrommel/download/showoff/), VS
 
 <br/>
 
-# [Download](https://github.com/seonglae/screencast/releases/latest/download/Intuiter.exe)
+# [Download](https://github.com/seonglae/screencast/releases/latest/download/Screencast.exe)
 ### Or more simply, install by command
 ```bash
 winget install screencast

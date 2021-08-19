@@ -25,7 +25,7 @@ Run *Runas cmd.exe /c ""exe\ahk\Ahk2Exe.exe" /in "cast.ahk" /icon "img\logo.ico"
 while(true){`
     if FileExist("cast.exe"){
         run "cast.exe"
-        sleep 1
+        sleep 2
         break
     }
 }
