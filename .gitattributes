@@ -1,0 +1,16 @@
+* text=auto
+
+# git objects as binary
+*.png binary
+*.ico binary
+*.exe binary
+*.icns binary
+*.vue text
+
+# git objects as text for diff
+*.md text
+*.js text
+*.yml text
+.editorconfig text
+.gitattributes text
+.gitignore text

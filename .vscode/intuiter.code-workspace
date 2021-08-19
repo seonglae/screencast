@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": "..\\src\\renderer",
+      "name": "nuxt"
+    },
+    {
+      "path": "..",
+      "name": "root"
+    },
+    {
+      "path": "..\\resources\\ahk"
+    },
+    {
+      "path": "..\\src\\main"
+    },
+    {
+      "path": "..\\.electron-nuxt",
+      "name": "lib"
+    },
+    {
+      "path": "..\\src"
+    }
+  ],
+  "settings": {
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+      "**/.nuxt": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.nuxt
+dist
+build/*
+node_modules
+yarn-error.log
+Screencast.exe
+Screencast.exe
+*.pfx
+*.env
+.history
