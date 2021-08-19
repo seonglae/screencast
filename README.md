@@ -13,6 +13,13 @@
 
 Impressed by [ShowOff](https://www.dcmembers.com/skrommel/download/showoff/), VSCode Screencast
 
+
+# [Download](https://github.com/seonglae/screencast/releases/latest/download/Intuiter.exe)
+### Or more simply, install by command
+```bash
+winget install screencast
+```
+
 ## Shortcuts
 Global Shortcut
 - `alt + r` - Restart overlay
