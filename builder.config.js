@@ -10,8 +10,7 @@ const windows = {
     // certificateFile: 'Seonglae.pfx',
     // certificatePassword: process.env.PASS,
     rfc3161TimeStampServer: 'http://timestamp.verisign.com/scripts/timestamp.dll'
-  },
-  nsis: { include: 'src/install/remove_startup.nsh' }
+  }
 }
 
 module.exports = {
