@@ -1,5 +1,7 @@
 # Screencast
 ### Press Overlay of keyboard and mouse like vscode screencast
+Impressed by [ShowOff](https://www.dcmembers.com/skrommel/download/showoff/), VSCode Screencast
+
 
 
 ![image](https://user-images.githubusercontent.com/27716524/130110863-524ea05f-86ef-4af2-927b-7bfe5ff65c1c.png)
@@ -11,8 +13,7 @@
 
 ![image](https://user-images.githubusercontent.com/27716524/119119629-53c85300-ba66-11eb-8a17-c1219bdf7f94.png)
 
-Impressed by [ShowOff](https://www.dcmembers.com/skrommel/download/showoff/), VSCode Screencast
-
+<br/>
 
 # [Download](https://github.com/seonglae/screencast/releases/latest/download/Intuiter.exe)
 ### Or more simply, install by command
@@ -20,6 +21,9 @@ Impressed by [ShowOff](https://www.dcmembers.com/skrommel/download/showoff/), VS
 winget install screencast
 ```
 
+<br/>
+
+# Usages
 ## Shortcuts
 Global Shortcut
 - `alt + r` - Restart overlay
