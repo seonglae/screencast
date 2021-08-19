@@ -91,6 +91,7 @@ jobs:
       - name: Make Manifest
         shell: bash
         run: |
+          mkdir manifests/s/Seonglae/Screencast -p
           cd manifests/s/Seonglae/Screencast
           mkdir ${{ env.RELEASE_VERSION }}
           cd ${{ env.RELEASE_VERSION }}
