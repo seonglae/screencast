@@ -2,7 +2,7 @@
 ### Press Overlay of keyboard and mouse like vscode screencast
 
 
-![image](https://user-images.githubusercontent.com/27716524/130110863-524ea05f-86ef-4af2-927b-7bfe5ff65c1c.png)
+![image](asset/images/press.gif)
 
 When you **Share screen** or **Screen Capture**, you can show what you type or click
 **화면공유**나 **스크린 캡쳐** 시 어떤 것을 타이핑하고 있는지를 보여줄 수 있습니다
