@@ -1,5 +1,5 @@
 # Screencast
-### Press Overlay of keyboard and mouse
+### Press Overlay of keyboard and mouse like vscode screencast
 
 This is Customized, Electron Wrapped version of [ShowOff](https://www.dcmembers.com/skrommel/download/showoff/)
 

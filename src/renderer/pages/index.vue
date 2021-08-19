@@ -8,7 +8,7 @@
       <v-spacer />
 
       <v-btn v-on:click="github" class="mr-2">
-        Github
+        Doc
       </v-btn>
       <v-btn v-on:click="() => remote.app.exit(0)" class="blue-grey darken-3">
         Exit

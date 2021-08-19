@@ -19,7 +19,7 @@ if FileExist("cast.exe"){
 }
 
 ; meta - Make EXE
-Run *Runas cmd.exe /c ""exe\ahk\Ahk2Exe.exe" /in "screencast.ahk" /icon "img\logo.ico" /out cast.exe",,hide
+Run *Runas cmd.exe /c ""exe\ahk\Ahk2Exe.exe" /in "cast.ahk" /icon "img\logo.ico" /out cast.exe",,hide
 
 ; meta - if made then run
 while(true)

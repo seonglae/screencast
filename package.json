@@ -1,8 +1,8 @@
 {
   "name": "screencast",
   "displayName": "Screencast",
-  "description": "Press overlay of keyboard and mouse by ahk",
-  "version": "0.8.0",
+  "description": "Press overlay of keyboard and mouse by ahk like vscode screencast",
+  "version": "1.0.0",
   "main": "./dist/main/index.js",
   "scripts": {
     "dev": "node .electron-nuxt/dev.js",
