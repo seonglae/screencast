@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { run } from 'node-cmd'
-import { defineComponent, onMounted, ref } from '@vue/composition-api'
+import { defineComponent, onMounted } from '@vue/composition-api'
 import { useStore } from '@nuxtjs/composition-api'
 import { resolve } from 'path'
 import { remote } from 'electron'
@@ -30,12 +30,9 @@ export default defineComponent({
   setup(_, context) {
     const store: Store<State> = useStore()
     const toast = useToast(context.root)
-    const running = ref(false)
 
     // Run Command
     async function make() {
-      if (running.value) return
-      running.value = true
       const root = resolve(remote.app.getAppPath(), '../../')
       const ahkPath = resolve(root, AHK_PATH)
       const makePath = resolve(root, MAKER_PATH)
@@ -44,8 +41,7 @@ export default defineComponent({
       if (!exist) return toast.error('No File')
       run(`"${ahkPath}" "${makePath}"`, () => {
         console.log('done')
-        remote.app.exit(0)
-        console.log('done')
+        store.state.loading = false
       })
     }
 
