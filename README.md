@@ -33,6 +33,10 @@ Global Shortcut
 After Click Overlay
 - Click Overlayer & `alt + f4` - End Overlay 
 
+or you can close program in system tray 
+
+![image](https://user-images.githubusercontent.com/27716524/130169362-05bbd422-56ba-4ef7-8317-9e12e48d4cb9.png)
+
 <br/>
 
 
