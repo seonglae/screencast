@@ -146,6 +146,7 @@ READINI:
 Return
 
 TRAYMENU:
+  Menu, Tray, Icon, img\logo.ico
   Menu,Tray,NoStandard
   Menu,Tray,Add,%applicationname%,SETTINGS
   Menu,Tray,Add,
@@ -168,15 +169,10 @@ ExitApp
 ABOUT:
   Gui,99:Destroy
   Gui,99:Margin,20,20
-  Gui,99:Add,Picture,xm Icon1,%applicationname%.exe
   Gui,99:Font,Bold
   Gui,99:Add,Text,x+10 yp+10,%applicationname%
-  Gui,99:Font
-  Gui,99:Add,Text,y+10,Shows pushed down keys and buttons
-  Gui,99:Add,Text,y+5,- To change the look of the status window, edit the %applicationname%.ini
-  Gui,99:Add,Text,y+0,by rightclicking the tray menu and selecting Settings
 
-  Gui,99:Add,Picture,xm y+20 Icon5,%applicationname%.exe
+  Gui,99:Add,Picture,xm y+20 Icon5,img\logo.ico
   Gui,99:Font,Bold
   Gui,99:Add,Text,x+10 yp+10, Made by Seonglae
   Gui,99:Font
@@ -185,7 +181,7 @@ ABOUT:
   Gui,99:Add,Text,y+5 G1HOURSOFTWARE,www.seonglae.com
   Gui,99:Font
 
-  Gui,99:Add,Picture,xm y+20 Icon5,%applicationname%.exe
+  Gui,99:Add,Picture,xm y+20 Icon5,img\logo.ico
   Gui,99:Font,Bold
   Gui,99:Add,Text,x+10 yp+10,Impressed by Skrommel
   Gui,99:Font
