@@ -32,3 +32,12 @@ Global Shortcut
 
 After Click Overlay
 - Click Overlayer & `alt + f4` - End Overlay 
+
+<br/>
+
+
+
+# Made with
+- [Daning Button](https://github.com/seonglae/dancing-button)
+- Electron
+- AHK
