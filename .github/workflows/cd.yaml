@@ -102,15 +102,12 @@ jobs:
           echo "PackageName: Screencast" >> Seonglae.Screencast.yaml
           echo "PackageVersion:" ${{ env.RELEASE_VERSION }} >> Seonglae.Screencast.yaml
           echo "License: MIT" >> Seonglae.Screencast.yaml
-          echo "InstallerType: exe" >> Seonglae.Screencast.yaml
-          echo "InstallerSwitches:" >> Seonglae.Screencast.yaml
-          echo "  Silent: /S" >> Seonglae.Screencast.yaml
-          echo "  SilentWithProgress: /S" >> Seonglae.Screencast.yaml
+          echo "InstallerType: nullsoft" >> Seonglae.Screencast.yaml
           echo "Installers:" >> Seonglae.Screencast.yaml
           echo "- Architecture: x64" >> Seonglae.Screencast.yaml
           echo "  InstallerUrl: https://github.com/seonglae/screencast/releases/download/${{ env.RELEASE_VERSION }}/Screencast.exe" >> Seonglae.Screencast.yaml
           echo "  InstallerSha256: ${HASH}" >> Seonglae.Screencast.yaml
-          echo "ShortDescription: Seonglae.Screencast" >> Seonglae.Screencast.yaml
+          echo "ShortDescription: Press overlay of keyboard and mouse by ahk like vscode screencast" >> Seonglae.Screencast.yaml
           echo "PackageLocale: en-US" >> Seonglae.Screencast.yaml
           echo "ManifestType: singleton" >> Seonglae.Screencast.yaml
           echo "ManifestVersion: 1.0.0" >> Seonglae.Screencast.yaml
