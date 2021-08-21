@@ -1,8 +1,11 @@
 # Screencast
-### Press Overlay of keyboard and mouse like vscode screencast
+## Press Overlay of keyboard and mouse like vscode screencast
 
-
+### Show Pressed
 ![image](asset/images/press.gif)
+
+### Typing Test
+![image](asset/images/typing.gif)
 
 When you **Share screen** or **Screen Capture**, you can show what you type or click
 **화면공유**나 **스크린 캡쳐** 시 어떤 것을 타이핑하고 있는지를 보여줄 수 있습니다
