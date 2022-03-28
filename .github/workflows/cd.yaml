@@ -113,7 +113,7 @@ jobs:
           echo "ManifestVersion: 1.0.0" >> Seonglae.Screencast.yaml
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Submitting Screencast version ${{ env.RELEASE_VERSION }}.yaml
           token: ${{ secrets.PAT }}
