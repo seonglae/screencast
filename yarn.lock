@@ -2821,10 +2821,10 @@ electron-to-chromium@^1.4.84:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.96.tgz#a97438a01d5db1460343fea4a344960b09330990"
   integrity sha512-DPNjvNGPabv6FcyjzLAN4C0psN/GgD9rSGvMTuv81SeXG/EX3mCz0wiw9N1tUEnfQXYCJi3H8M0oFPRziZh7rw==
 
-electron@20.3.5:
-  version "20.3.5"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-20.3.5.tgz#4512736c96338215855794d0e8010563a873d126"
-  integrity sha512-xTBjdgAZXf6txxfIhv9mZ3yloJZ+KTht7D2X10uHlFnQu4ZmvzqwhGuQPnldVKhRUDvZehIjulmmrFO6Mz6SzQ==
+electron@20.3.7:
+  version "20.3.7"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-20.3.7.tgz#5363967df29afa3702bba759d65226c8d6e45f08"
+  integrity sha512-mPnQ6sYlQNXDTvUsGgQpMBB3RxWdEWE1bROhPtHuYo/Vzb+YiDCUreB83T5OmMK8oCl0xLya6xxPD6CANRThNA==
   dependencies:
     "@electron/get" "^1.14.1"
     "@types/node" "^16.11.26"
