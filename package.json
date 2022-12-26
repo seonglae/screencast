@@ -23,11 +23,11 @@
   "license": "MIT",
   "homepage": "https://github.com/seonglae/screencast",
   "engines": {
-    "node": ">=v14.21.1"
+    "node": ">=v14.21.2"
   },
   "resolutions": {
     "@types/node": "12.20.55",
-    "@nuxtjs/vuetify/**/sass": "1.56.2"
+    "@nuxtjs/vuetify/**/sass": "1.57.1"
   },
   "devDependencies": {
     "@mdi/font": "7.1.96",
@@ -49,8 +49,8 @@
     "electron-devtools-installer": "3.2.0",
     "ini": "^3.0.1",
     "nuxt": "3.0.0",
-    "sass": "~1.56.2",
-    "vuetify": "2.6.12",
+    "sass": "~1.57.1",
+    "vuetify": "2.6.13",
     "webpack": "5.75.0",
     "webpack-node-externals": "3.0.0"
   },
