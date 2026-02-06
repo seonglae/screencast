@@ -51,7 +51,7 @@
     "nuxt": "3.19.0",
     "sass": "~1.57.1",
     "vuetify": "3.0.0",
-    "webpack": "5.94.0",
+    "webpack": "5.104.1",
     "webpack-node-externals": "3.0.0"
   },
   "dependencies": {
