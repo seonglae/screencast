@@ -107,7 +107,7 @@ READINI:
     inifile=%inifile%`n`;statusheight
     inifile=%inifile%`n`;statuswidth
     inifile=%inifile%`n`;transparency 0-255,Off
-    inifile=%inifile%`n`;timetohide             `;time in ms
+    inifile=%inifile%`n`;timetoshow             `;time in ms
     inifile=%inifile%`n
     inifile=%inifile%`n[Settings]
     inifile=%inifile%`nbackcolor=424242
